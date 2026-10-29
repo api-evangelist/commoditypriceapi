@@ -64,5 +64,119 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-CommodityPriceAPI is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog) and added to the network as a stub for full-pipeline profiling.
-- https://commoditypriceapi.com/
+Commodity Price API provides real-time market data for over 520 commodities, including precious metals, oil, and natural gas. Developers can retrieve live price quotes via a simple REST endpoint, enabling integration of up-to-date commodity pricing into applications, dashboards, and trading platforms. The service offers a free trial, no credit card required, and flexible pricing plans for various usage levels.
+
+**Areas:** Company · Commodities · Finance · Real-Time
+
+## CommodityPriceAPI on APIs.io
+
+Everything profiled for CommodityPriceAPI is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/commoditypriceapi/](https://apis.io/providers/commoditypriceapi/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [CommodityPriceAPI](https://apis.io/apis/commoditypriceapi/commoditypriceapi/) — Provides real‑time commodity price data via REST endpoints such as gold-price and silver-price.
+- [CommodityPriceAPI CommodityPriceAPI API](https://apis.io/apis/commoditypriceapi/commoditypriceapi-commoditypriceapi-api-api/) — The CommodityPriceAPI API API from CommodityPriceAPI — 3 operation(s) for commoditypriceapi api.
+- [CommodityPriceAPI Rates API](https://apis.io/apis/commoditypriceapi/commoditypriceapi-rates-api/) — The Rates API from CommodityPriceAPI — 3 operation(s) for rates.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (5)
+
+The data models the API reads and writes.
+
+- [GetV2RatesLatestResponse](https://apis.io/schemas/commoditypriceapi/commoditypriceapi-get-v2-rates-latest-response/)
+- [GetV3RatesLatestSymbolResponse](https://apis.io/schemas/commoditypriceapi/commoditypriceapi-get-v3-rates-latest-symbol-response/)
+- [GetV3RatesRateidResponse](https://apis.io/schemas/commoditypriceapi/commoditypriceapi-get-v3-rates-rateid-response/)
+- [GetV3Response](https://apis.io/schemas/commoditypriceapi/commoditypriceapi-get-v3-response/)
+- [GetV3V3IdResponse](https://apis.io/schemas/commoditypriceapi/commoditypriceapi-get-v3-v3-id-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Commoditypriceapi Context](https://apis.io/jsonld/commoditypriceapi/commoditypriceapi-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [CommodityPriceAPI API Rules](https://apis.io/rules/commoditypriceapi/commoditypriceapi-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Commoditypriceapi Domain Security](https://apis.io/security/commoditypriceapi/commoditypriceapi-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Commoditypriceapi Plans Pricing](https://apis.io/plans/commoditypriceapi/commoditypriceapi-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://commoditypriceapi.com/)
+- [Pricing](https://commoditypriceapi.com/pricing)
+- [Support](https://commoditypriceapi.com/support)
+- [Blog](https://commoditypriceapi.com/blog)
+- [Terms of service](https://commoditypriceapi.com/terms)
+- [Privacy policy](https://commoditypriceapi.com/privacy-policy)
+- [GitHub](https://github.com/Commodity-Price-API)
+
+## API Evangelist rating
+
+**Kin Score 32.3** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 53.6 |
+| Contract quality | 25.7 |
+| Contract governance | 22.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 76.3 |
+
+**Agent readiness 20.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | na |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | na |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | na |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/commoditypriceapi/](https://apis.io/providers/commoditypriceapi/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for CommodityPriceAPI: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/commoditypriceapi/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
